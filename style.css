@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic); 
+
+* {
+    margin:0; 
+    padding:0; 
+}
+
+.wrapper {
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1365px; 
+    margin:20px auto; 
+}
+.header__logo {
+}
+.header__logolink {
+}
+.menu {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+.title {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1365px; 
+    margin:20px auto; 
+}
+.title__word {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 235px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.photo {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1365px; 
+    margin:20px auto; 
+    
+}
+.photo__left {
+}
+.photo__right {
+    position:relative; 
+}
+.content {
+    display: flex; 
+    position:absolute; 
+    bottom:30px; 
+    right:30px;     
+}
+.content__arrow {
+}
+.content__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF; 
+    margin-left: 8px; 
+}
+.subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+    max-width: 1365px; 
+    margin:20px auto; 
+} 
+.animations__container {
+    max-width: 566px; 
+    margin:278px auto; 
+}
+
+.animations {
+    position: fixed; 
+    top:0; 
+    right:-100%; 
+    transition: right 1s ease; 
+    background-image: url(img/animation.png); 
+    width: 100%;
+    height: 100vh; 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+}
+
+.animations div {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+
+    color: #FFFFFF;
+    max-width:566px; 
+    text-align: center;
+}
+
+.animations a {
+    display: inline-block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    color: #FFFFFF; 
+    border: 10px solid #FFFFFF;
+    border-radius: 30px;
+    text-decoration: none; 
+    padding: 29px 112px; 
+    margin-top:20px; 
+}
+
+.visible {
+    right:0; 
+}
